@@ -1,0 +1,617 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  /* background-color: rgb(42, 29, 53); */
+  background: -webkit-linear-gradient(left,rgb(42, 29, 53), #211f63);
+}
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: rgba(10, 3, 3, 0.425);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 25px;
+  font-family: KOMIKAX;
+}
+.card-body{
+  height: 50%;
+}
+.text {
+  color: white;
+  
+}
+.icon1 {
+  height: 50%;
+  width: 50%;
+}
+.icon2{
+  width: 30%;
+  position:absolute;
+  top: 10%;
+  left: 60%;
+}
+.divicon {
+  border: 4px solid rgb(255, 208, 0);
+  width: 25vw;
+  height: 25vw;
+  font-family: KOMIKAX;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.Buthome {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: KOMIKAX;
+  text-decoration: none;
+}
+h1{
+  font-size:150% ;
+}
+h3 {
+  text-align: center;
+  background-color: rgb(255, 208, 0);
+  height: 10%;
+  font-size: 150%;
+  text-decoration: none;
+  font-family: KOMIKAX;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+a:hover h3 {
+  background-color: rgb(163, 37, 64);
+  color: black;
+  font-family: KOMIKAX;
+}
+
+a:hover > div {
+  border: 4px solid rgb(163, 37, 64);
+  background-color: wheat;
+  font-family: KOMIKAX;
+}
+
+a:link,
+
+a:visited {
+  color: black;
+  font-family: KOMIKAX;
+}
+
+.bottom-footer {
+  background-color: rgba(10, 3, 3, 0.425);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 12%;
+  color: white;
+  text-align: center;
+}
+.login {
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: justify;
+  float: right;
+}
+
+.botton {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  background-color: wheat;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 150%;
+}
+
+.r {
+  background-color: rgb(255, 0, 0);
+}
+.g {
+  background-color: rgb(29, 207, 23);
+}
+
+.addsub {
+  width: 10%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  height: auto;
+}
+th {
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+table,
+td,
+th {
+  border: 2px solid white;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10vh;
+}
+td {
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+.container{
+  margin-top: 3%;
+}
+
+.form-control{
+  width: 50%;
+}
+.form__title{
+  position: relative;
+  float: left;
+  top: 5px;
+  margin-right: 1% ;
+}
+.pic{
+  position: relative;
+  top: 21px;
+  left: 10px;
+}
+.boxpic{
+  border: 1px solid black;
+  width: 25%;
+  height: 65%;
+  position: absolute;
+  bottom: 17%;
+  left: 65%;
+}
+.subbut{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subbut button.btn.btn-primary {
+  margin: 0 auto;
+}
+
+.subbut h4 {
+  margin: 0 auto;
+}
+.butlable{
+  margin-left:100vh;
+  margin-top: 20%;
+  width: 90%;
+}
+.butpm{
+  background-color: inherit;
+  border: none;
+  width: 100px;
+}
+
+.imgpm{
+  width: 100%;
+}
+.imgpm:hover{
+  width: 80%;
+}
+
+.divimgpop{
+  border: #0c0101;
+}
+
+
+.inputnumber{
+  margin: 0 auto;
+}
+
+img.pandm{
+  width: 50px;
+  height: 50px;
+}
+
+button.MuiButton-contained {
+  background-color: none;
+}
+
+.imgtablede{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@font-face {
+  font-family: KOMIKAX;
+  src: url("./font/KOMIKAX_.ttf");
+}
+
+
+@media only screen and (max-width: 1200px) {
+ 
+  h1{
+    font-size: 150%;
+
+  }
+  .divicon{
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+ 
+  h1{
+    font-size: 150%;
+  }
+  .divicon{
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  
+  h1{
+    font-size: 150%;
+  }
+  .divicon{
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 150%;
+  }
+  .divicon{
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1{
+    font-size: 150%;
+  }
+  .divicon{
+    font-size: 40%;
+  }
+}
+
+
+
+
+.regis, .regis:before, .regis:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.regis{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left,rgb(42, 29, 53), #211f63);
+  font-family: 'Nunito', sans-serif;
+}
+
+.cont input, .cont button{
+  border:none;
+  outline: none;
+  background: none;
+}
+
+.cont{
+  margin-top: 3.5%;
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.cont .form{
+  position: relative;
+  width: 640px;
+  height: 100%;
+  padding: 10px 0px;
+  -webkit-transition:-webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.cont h2{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.cont label{
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+.cont label span{
+  font-size: 14px;
+  font-weight: 600;
+  color: #505f75;
+  text-transform: uppercase;
+}
+
+.cont input{
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+  text-align: center;
+  font-family: 'Nunito', sans-serif; 
+}
+
+.cont button{
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cont .submit{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  background: -webkit-linear-gradient(left, rgb(42, 29, 53), #b224ef);
+}
+
+.cont .submit:hover{
+  background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+.cont .forgot-pass{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0c0101;
+  cursor: pointer;
+}
+
+.forgot-pass:hover{
+  color: red;
+}
+
+.social-media{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media ul{
+  list-style: none;
+}
+
+.social-media ul li{
+  display: inline-block;
+  cursor: pointer;
+  margin: 25px 15px;
+}
+
+.social-media img{
+  width: 40px;
+  height: 40px;
+}
+
+.sub-cont{
+  overflow: hidden;
+  position: absolute;
+  left: 640px;
+  top: 0;
+  width: 900px;
+  height: 100%;
+  padding-left: 260px;
+  background: #fff;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+}
+
+.cont.s-signup .sub-cont{
+  -webkit-transform:translate3d(-640px, 0, 0);
+          transform:translate3d(-640px, 0, 0);
+}
+
+.cont .img{
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  padding-top: 360px;
+}
+
+.img:before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 900px;
+  height: 100%;
+  background-image: url('images/backlog.jpg');
+  background-size: cover;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.img:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.47);
+}
+
+.cont.s-signup .img:before{
+  -webkit-transform:translate3d(640px, 0, 0);
+          transform:translate3d(640px, 0, 0);
+}
+
+.img-text{
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition:-webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.img-text h2{
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.img-text p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cont.s-signup .img-text.m-up{
+  -webkit-transform:translateX(520px);
+          transform:translateX(520px);
+}
+
+.img-text.m-in{
+  -webkit-transform:translateX(-520px);
+          transform:translateX(-520px);
+}
+
+.cont.s-signup .img-text.m-in{
+  -webkit-transform:translateX(0);
+          transform:translateX(0);
+}
+
+
+.sign-in{
+  padding-top: 65px;
+  -webkit-transition-timing-function:ease-out;
+          transition-timing-function:ease-out;
+}
+
+.cont.s-signup .sign-in{
+  -webkit-transition-timing-function:ease-in-out;
+          transition-timing-function:ease-in-out;
+  -webkit-transition-duration:1.2s;
+          transition-duration:1.2s; 
+  -webkit-transform:translate3d(640px, 0, 0);
+          transform:translate3d(640px, 0, 0);
+}
+
+.img-btn{
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  width: 100px;
+  height: 36px;
+  margin: 0 auto;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.img-btn:after{
+  content: '';
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+.img-btn span{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack:center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition:-webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;;
+}
+
+
+.img-btn span.m-in{
+  -webkit-transform:translateY(-72px);
+          transform:translateY(-72px);
+}
+
+.cont.s-signup .img-btn span.m-in{
+  -webkit-transform:translateY(0);
+          transform:translateY(0);
+}
+
+.cont.s-signup .img-btn span.m-up{
+  -webkit-transform:translateY(72px);
+          transform:translateY(72px);
+}
+
+.sign-up{
+  -webkit-transform:translate3d(-900px, 0, 0);
+          transform:translate3d(-900px, 0, 0);
+}
+
+.cont.s-signup .sign-up{
+  -webkit-transform:translate3d(0, 0, 0);
+          transform:translate3d(0, 0, 0);
+}
